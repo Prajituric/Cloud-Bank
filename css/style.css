@@ -275,16 +275,19 @@ p {
 .form-group input {
   padding: 0.3rem 0;
   width: 40%;
+  font-size: 1rem;
 }
 
 textarea {
   width: 40%;
-  height: 40%;
+  height: 7rem;
+  resize: none;
+  font-size: 1rem;
 }
 
 .btn-submit {
   padding: 0.5rem 3rem;
-  margin: 0 0 1rem 16rem;
+  margin: 0 0 1rem 20.2rem;
   background: var(--main-color);
   border: none;
   border-radius: 10px;
