@@ -122,3 +122,52 @@ p {
 .btn {
   color: var(--whiteish);
 }
+
+/* WHAT WE DO SECTION */
+
+.section-doing {
+  padding: 1.5rem 0;
+  background: rgb(148, 147, 147);
+}
+
+.container {
+  max-width: 110rem;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.secondary-text {
+  color: var(--main-color);
+  padding-right: 0.5rem;
+}
+
+.text-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.items {
+  display: flex;
+  padding: 1rem;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 4rem;
+  background: #d5dbe7;
+}
+
+.item i {
+  background: var(--main-color);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
