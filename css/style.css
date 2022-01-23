@@ -296,3 +296,7 @@ textarea {
   color: var(--whiteish);
   transition: all 0.3s ease;
 }
+
+.map {
+  display: flex;
+}
