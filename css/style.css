@@ -67,6 +67,7 @@ p {
 .nav-list a:hover {
   background: var(--hover-color);
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 /* HERO SECTION */
@@ -117,6 +118,7 @@ p {
 
 .button:hover {
   background: #1e3030;
+  transition: all 0.3s ease;
 }
 
 .btn {
