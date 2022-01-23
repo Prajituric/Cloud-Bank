@@ -127,7 +127,7 @@ p {
 
 .section-doing {
   padding: 1.5rem 0;
-  background: rgb(148, 147, 147);
+  background: #f4f4f4;
 }
 
 .container {
@@ -161,8 +161,7 @@ p {
   flex: 1;
   text-align: center;
   padding: 1rem;
-  margin: 0 4rem;
-  background: #d5dbe7;
+  margin: 0 2rem;
 }
 
 .item i {
@@ -170,4 +169,65 @@ p {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+
+/* WHO WE ARE Section */
+
+.whoweare {
+  display: flex;
+  height: 70vh;
+  background: #1f2326;
+  color: var(--whiteish);
+}
+
+.whoweare div {
+  flex: 1;
+}
+
+.who-image {
+  background-image: url(/images/people.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.are-text {
+  margin: 2rem 5rem;
+}
+
+.are-head,
+.team-text {
+  margin: 2rem 0;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 2;
+}
+
+/* CLients Section */
+
+.items {
+  display: flex;
+}
+
+.items img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  filter: brightness(0);
+  opacity: 0.5;
+}
+
+.items img:hover {
+  opacity: 1;
+  filter: none;
+  transition: all 0.3s;
+}
+
+.top-padd {
+  margin: 1rem;
+  font-size: 2rem;
 }
