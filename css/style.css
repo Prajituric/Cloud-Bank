@@ -218,6 +218,7 @@ p {
 .items img {
   display: block;
   margin: auto;
+  margin-bottom: 1rem;
   width: 80%;
   filter: brightness(0);
   opacity: 0.5;
@@ -232,4 +233,66 @@ p {
 .top-padd {
   margin: 1rem;
   font-size: 2rem;
+}
+
+/* CONTACT SECTION */
+
+.background-primary {
+  background: #1f2326;
+  color: var(--whiteish);
+}
+
+.form-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#contact {
+  display: flex;
+}
+
+.contact-form,
+.map {
+  flex: 1;
+}
+
+.form-group {
+  margin: 0.75rem;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.form-group input {
+  padding: 0.3rem 0;
+  width: 40%;
+}
+
+textarea {
+  width: 40%;
+  height: 40%;
+}
+
+.btn-submit {
+  padding: 0.5rem 3rem;
+  margin: 0 0 1rem 16rem;
+  background: var(--main-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--hover-color);
+}
+
+.btn-submit:hover {
+  background: var(--hover-color);
+  color: var(--whiteish);
+  transition: all 0.3s ease;
 }
