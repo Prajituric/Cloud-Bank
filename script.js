@@ -6,3 +6,17 @@ function initMap() {
   });
   const maker = new google.maps.Maker({ position: loc, map: map });
 }
+
+$("#nav-bar a, .btn").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    const hash = this.hash;
+
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top - 100,
+      },
+      800
+    );
+  }
+});
